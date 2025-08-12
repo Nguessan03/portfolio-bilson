@@ -495,11 +495,11 @@ header .navbar-brand b {
   margin: 10px 20px 20px 20px;
   display: flex;
   align-items: center;
-  width: 60px !important;
-  height: 60px !important;
+  width: 65px !important;
+  height: 65px !important;
   justify-content: center;
   color: rgb(255 255 255);
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 1rem;
 }
 
