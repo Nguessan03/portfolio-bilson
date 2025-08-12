@@ -26,7 +26,7 @@
 
 /*------------------------- GENERAL -------------------------*/
 :root{
-  --switchers-main: #e5e7ed;
+  --switchers-main: #1A1812;
 }
 
 *
@@ -489,7 +489,7 @@ header .navbar-brand b {
 }
 .left-side .menu .list-group-item {
   position: absolute;
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   /**box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);**/
   padding: 15px 10px;
   margin: 10px 20px 20px 20px;
@@ -543,7 +543,7 @@ width: 300px;
   transition: .2s linear;
 }
 .share a {
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
   padding: 10px 10px;
   margin: 10px;
@@ -1643,7 +1643,7 @@ textarea:-moz-placeholder {
   opacity: 0;
   visibility: hidden;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   border: 1px solid rgb(255 255 255 / 30%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -1665,7 +1665,7 @@ textarea:-moz-placeholder {
   width: 40px;
   border-radius: 0.75rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   border: 1px solid rgb(255 255 255 / 30%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -2012,7 +2012,7 @@ textarea:-moz-placeholder {
     z-index: 900;
     border-radius:12px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
-    background: rgb(255 255 255 / 20%);
+    background: rgb(0 0 0 / 20%);
     border: 1px solid rgb(255 255 255 / 30%);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -2257,7 +2257,7 @@ body {
   box-shadow: 0 1px 3px 0 #f64242;
 }
 #main>section {
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   border: 1px solid rgb(255 255 255 / 30%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -2317,7 +2317,7 @@ box-shadow: 0 5px 14px 0 #4a89dc;
 header, .right-side {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
   
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   border: 1px solid rgb(255 255 255 / 30%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -2338,7 +2338,7 @@ header, .right-side {
 /*------------------------- LEFT SIDE -------------------------*/
 .left-side {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
-  background: rgb(255 255 255 / 20%);
+  background: rgb(0 0 0 / 20%);
   border: 1px solid rgb(255 255 255 / 30%);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -2740,7 +2740,7 @@ box-shadow: 0 5px 14px 0 #4a89dc;
   border-radius: 50%;
   cursor: pointer;
   margin: 20px;
-  box-shadow: 0 0 0 0.5rem rgb(255 255 255 / 20%), 0 1rem 2rem rgb(0 0 0 / 40%);
+  box-shadow: 0 0 0 0.5rem rgb(0 0 0 / 20%), 0 1rem 2rem rgb(0 0 0 / 40%);
   /*! position: relative; */
   float:left;
 }
@@ -2847,7 +2847,7 @@ box-shadow: 0 5px 14px 0 #4a89dc;
 
 /*------------------------- Mouse Magic Cursor -------------------------*/
 .mmc-inner, .mmc-inner.mmc-hover{
-  background-color: rgb(255 255 255 / 20%);
+  background-color: rgb(0 0 0 / 20%);
   /*! box-shadow: 0 5px 14px 0 #e9573f; */
 }
 .mmc-outer {
