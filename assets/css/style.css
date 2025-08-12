@@ -47,7 +47,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  color: rgb(33 37 41);
+  color: rgb(250 250 250);
   background: var(--switchers-main);
 }
 
@@ -495,8 +495,8 @@ header .navbar-brand b {
   margin: 10px 20px 20px 20px;
   display: flex;
   align-items: center;
-  width: 60px !important;
-  height: 60px !important;
+  width: 80px !important;
+  height: 70px !important;
   justify-content: center;
   color: rgb(255 255 255);
   font-size: 25px;
@@ -2264,13 +2264,13 @@ body {
 }
 /*------------------------- Preloader -------------------------*/
 #line-loader:before, #line-loader:after{
-  background-color: #e5e7ed;
+  background-color: #1A1812;
 }
 .middle-line:before{
-  background-color: #000;
+  background-color: #fff;
 }
 .middle-line:after{
-  background-color: #bbb;
+  background-color: #2b2b2b;
 }
 /*------------------------- OVERLAY MENU -------------------------*/
 a.menu-arrow {
