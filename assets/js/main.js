@@ -113,10 +113,10 @@ const text = document.querySelector(".sec-text");
                 text.textContent = "Freelancer";
             }, 0);
             setTimeout(() => {
-                text.textContent = "Designer";
+                text.textContent = "UI/UX";
             }, 4000);
             setTimeout(() => {
-                text.textContent = "YouTuber";
+                text.textContent = "Graphic Designer";
             }, 8000); //1s = 1000 milliseconds
         }
 
