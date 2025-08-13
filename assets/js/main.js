@@ -168,13 +168,12 @@ function deviceScreen() {
 
 /*-------------------------  Date  -------------------------*/
 function date() {
-    var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
-    //var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    var monthNames = ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Aoû", "Sep", "Oct", "Nov", "Déc"];
+    //var dayNames = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
     var newDate = new Date();
     newDate.setDate(newDate.getDate());
     $('#date').html('<span><b>' + newDate.getDate() + '</b></span>' + '<span>' + monthNames[newDate.getMonth()] + '</span> ' + newDate.getFullYear());
 }
-
 /*-------------------------  Preloader  -------------------------*/
 function pagePreloader() {
 
