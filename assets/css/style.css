@@ -2358,7 +2358,7 @@ header, .right-side {
   border: 1px solid #f7684c;
 }
 .personal-info li small{
-  color: #595959;
+  color: #FFF;
 }
 .count-up::before, .count-up::after{
   background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #f6664b, rgba(185, 143, 95, 0.15));
