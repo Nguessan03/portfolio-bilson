@@ -2358,7 +2358,7 @@ header, .right-side {
   border: 1px solid #f7684c;
 }
 .personal-info li small{
-  color: #FFF;
+  color: #f0f0f0;
 }
 .count-up::before, .count-up::after{
   background: linear-gradient(to right, rgba(185, 143, 95, 0.15), #f6664b, rgba(185, 143, 95, 0.15));
@@ -2372,49 +2372,102 @@ header, .right-side {
   background-color: #fff;
   border: 1px solid #4a89dc;
 }
-.skills .skill-box:nth-child(1) .skillbar-bar  {
+.skills .skill-box:nth-child(1) .skillbar-bar {
   border: 2px solid #fff;
-  background-image: linear-gradient(to bottom,#5d9cec,#4a89dc);
+  background-image: linear-gradient(to bottom, #5d9cec, #4a89dc);
   box-shadow: 0 5px 14px 0 #4a89dc;
 }
+
 .skills .skill-box:nth-child(2) .skillbar {
   background-color: #fff;
   border: 1px solid #8cc152;
 }
-.skills .skill-box:nth-child(2) .skillbar-bar  {
+.skills .skill-box:nth-child(2) .skillbar-bar {
   border: 2px solid #fff;
-  background-image: linear-gradient(to bottom,#a0d468,#8cc152);
+  background-image: linear-gradient(to bottom, #a0d468, #8cc152);
   box-shadow: 0 5px 14px 0 #8cc152;
 }
+
 .skills .skill-box:nth-child(3) .skillbar {
   background-color: #fff;
   border: 1px solid #f64242;
 }
-.skills .skill-box:nth-child(3) .skillbar-bar  {
+.skills .skill-box:nth-child(3) .skillbar-bar {
   border: 2px solid #fff;
-  background-image: linear-gradient(to bottom,#ff5454,#f64242);
-box-shadow: 0 5px 14px 0 #f64242;
+  background-image: linear-gradient(to bottom, #ff5454, #f64242);
+  box-shadow: 0 5px 14px 0 #f64242;
 }
+
+.skills .skill-box:nth-child(4) .skillbar {
+  background-color: #fff;
+  border: 1px solid #ff61f6;
+}
+.skills .skill-box:nth-child(4) .skillbar-bar {
+  border: 2px solid #fff;
+  background-image: linear-gradient(to bottom, #ff7bfa, #ff61f6);
+  box-shadow: 0 5px 14px 0 #ff61f6;
+}
+
+.skills .skill-box:nth-child(5) .skillbar {
+  background-color: #fff;
+  border: 1px solid #9b59b6;
+}
+.skills .skill-box:nth-child(5) .skillbar-bar {
+  border: 2px solid #fff;
+  background-image: linear-gradient(to bottom, #b06cc7, #9b59b6);
+  box-shadow: 0 5px 14px 0 #9b59b6;
+}
+
+.skills .skill-box:nth-child(6) .skillbar {
+  background-color: #fff;
+  border: 1px solid #e67e22;
+}
+.skills .skill-box:nth-child(6) .skillbar-bar {
+  border: 2px solid #fff;
+  background-image: linear-gradient(to bottom, #f39c12, #e67e22);
+  box-shadow: 0 5px 14px 0 #e67e22;
+}
+
+.skills .skill-box:nth-child(7) .skillbar {
+  background-color: #fff;
+  border: 1px solid #3498db;
+}
+.skills .skill-box:nth-child(7) .skillbar-bar {
+  border: 2px solid #fff;
+  background-image: linear-gradient(to bottom, #5dade2, #3498db);
+  box-shadow: 0 5px 14px 0 #3498db;
+}
+
+.skills .skill-box:nth-child(8) .skillbar {
+  background-color: #fff;
+  border: 1px solid #1abc9c;
+}
+.skills .skill-box:nth-child(8) .skillbar-bar {
+  border: 2px solid #fff;
+  background-image: linear-gradient(to bottom, #48c9b0, #1abc9c);
+  box-shadow: 0 5px 14px 0 #1abc9c;
+}
+
 .knowledge-item li:nth-child(1)::before {
-  background: linear-gradient(to bottom,#fc6e51,#e9573f);
+  background: linear-gradient(to bottom, #fc6e51, #e9573f);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .knowledge-item li:nth-child(2)::before {
- background: linear-gradient(to bottom,#a0d468,#8cc152);
-   background-clip: border-box;
+  background: linear-gradient(to bottom, #a0d468, #8cc152);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .knowledge-item li:nth-child(3)::before {
-  background: linear-gradient(to bottom,#6e54ff,#6142f6);
+  background: linear-gradient(to bottom, #6e54ff, #6142f6);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .knowledge-item li:nth-child(4)::before {
-background: linear-gradient(to bottom,#eb54ff,#e242f6);
+  background: linear-gradient(to bottom, #eb54ff, #e242f6);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

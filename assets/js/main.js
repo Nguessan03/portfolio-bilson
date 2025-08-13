@@ -126,7 +126,24 @@ const text = document.querySelector(".sec-text");
 
 /******/
 
-
+// Fonction pour télécharger le CV
+document.querySelector('.download-cv').addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    // Créer un élément <a> temporaire
+    const link = document.createElement('a');
+    link.href = 'assets/cv/CV_BILE EZECHIEL.pdf';
+    link.download = 'CV_BILE EZECHIEL.pdf'; 
+    
+    // Ajouter l'élément au DOM temporairement
+    document.body.appendChild(link);
+    
+    // Déclencher le téléchargement
+    link.click();
+    
+    // Supprimer l'élément temporaire
+    document.body.removeChild(link);
+});
 
 
 
