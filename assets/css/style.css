@@ -2587,7 +2587,7 @@ background-clip: border-box;
   background-color: rgba(0, 0, 0, 0.4);
 } 
 .blog-header, .blog-header ~ p{
-  color: var(--bs-body-color);
+  color: #fc6e51;
 }
 .blog-icon i{
   color: #fff;
