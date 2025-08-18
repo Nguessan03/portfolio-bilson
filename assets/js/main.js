@@ -12,7 +12,6 @@ $(document).ready(function() {
     deviceScreen();
     date();
     mobileDesign()
-    portfolioPopup();
     sidebarMenu();
     mapInit();
     mouseMagicCursor();
@@ -704,48 +703,6 @@ function portfolioIsotop() {
     });
 }
 
-/*-------------------------  MAGNIFIC POPUP JS  -------------------------*/
-function portfolioPopup() {
-
-    "use strict";
-
-    if (('.portfolio-items').length > 0) {
-        $('.portfolio-items').each(function() {
-            $(this).magnificPopup({
-                delegate: 'a.portfolio-magnific',
-                type: 'image',
-                removalDelay: 300,
-                mainClass: "mfp-fade",
-                image: {
-                    titleSrc: "title",
-                    gallery: {
-                        enabled: true
-                    }
-                },
-                iframe: {
-                    markup: '<div class="mfp-iframe-scaler">' + '<div class="mfp-close"></div>' + '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' + '<div class="mfp-title mfp-bottom-iframe-title"></div>' + "</div>",
-                    patterns: {
-                        youtube: {
-                            index: "youtube.com/",
-                            id: null,
-                            src: "%id%?autoplay=1"
-                        },
-                        vimeo: {
-                            index: "vimeo.com/",
-                            id: "/",
-                            src: "https://player.vimeo.com/video/%id%?autoplay=1"
-                        },
-                        gmaps: {
-                            index: "//maps.google.",
-                            src: "%id%&output=embed"
-                        },
-                    },
-                    srcAction: "iframe_src",
-                },
-            });
-        });
-    }
-}
 
 /*-------------------------  GOOGLE Map  -------------------------*/
 function mapInit() {
